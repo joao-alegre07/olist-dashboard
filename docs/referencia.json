@@ -1,0 +1,65 @@
+{
+  "periodo": "2017-01-01 a 2018-08-31",
+  "pedidos_no_periodo": 99092,
+  "pedidos_validos": 97905,
+  "receita_pedidos_validos": 13449529.68,
+  "frete_pedidos_validos": 2234177.06,
+  "clientes_unicos": 94703,
+  "itens_no_periodo": 112279,
+  "tratamentos": {
+    "geo_pontos_fora_do_brasil": 42,
+    "clientes_sem_geolocalizacao": 279,
+    "produtos_sem_categoria": 610,
+    "avaliacoes_duplicadas_por_pedido": 551,
+    "pagamentos_tipo_indefinido": 3,
+    "pedidos_fora_do_periodo": 349,
+    "entregues_sem_data_de_entrega": 8
+  },
+  "merges": [
+    {
+      "merge": "clientes -> geolocalização",
+      "linhas_antes": 99441,
+      "linhas_depois": 99441
+    },
+    {
+      "merge": "vendedores -> geolocalização",
+      "linhas_antes": 3095,
+      "linhas_depois": 3095
+    },
+    {
+      "merge": "itens -> produtos",
+      "linhas_antes": 112650,
+      "linhas_depois": 112650
+    },
+    {
+      "merge": "itens -> vendedores",
+      "linhas_antes": 112650,
+      "linhas_depois": 112650
+    },
+    {
+      "merge": "pedidos -> clientes",
+      "linhas_antes": 99092,
+      "linhas_depois": 99092
+    },
+    {
+      "merge": "pedidos -> itens (agregado)",
+      "linhas_antes": 99092,
+      "linhas_depois": 99092
+    },
+    {
+      "merge": "pedidos -> item principal",
+      "linhas_antes": 99092,
+      "linhas_depois": 99092
+    },
+    {
+      "merge": "pedidos -> pagamentos (agregado)",
+      "linhas_antes": 99092,
+      "linhas_depois": 99092
+    },
+    {
+      "merge": "pedidos -> avaliação",
+      "linhas_antes": 99092,
+      "linhas_depois": 99092
+    }
+  ]
+}
