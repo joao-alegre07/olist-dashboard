@@ -1,5 +1,7 @@
 # Dashboard Olist — o que determina a satisfação do cliente?
 
+**Apresentação:** [abrir no Canva](https://canva.link/ajqkbgjnf6phogx)
+
 Trabalho de Business Intelligence (P2) sobre a base pública
 [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce),
 feito em Python com Streamlit e Plotly.
